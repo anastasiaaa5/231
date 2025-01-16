@@ -20,7 +20,7 @@
 <select name="passenger" id="">
     {% for passengers in passengers %}
     <option value="{{ passenger.id }}">{{ passenger }}</option>
-    { % end}
+    {% endfor %}
 
 </select>
 <a href="{% url 'index' %}">All Flights</a>
