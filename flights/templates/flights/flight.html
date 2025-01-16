@@ -12,6 +12,7 @@
     <li>{{ passenger }}</li>
     {% empty %}
     <li>No Passengers</li>
+    {% endfor %}
 </ul>
 <a href="{% url 'index' %}">All Flights</a>
 {% endblock %}
